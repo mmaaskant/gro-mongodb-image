@@ -1,0 +1,19 @@
+# Hidden files and directories
+.idea
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Docker data volumes
+compose/*/data
+
+# Environment and authentication secret file
+.env
